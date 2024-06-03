@@ -39,7 +39,7 @@
  				<configuration> 
  					<archive> 
  						<manifest> 
- 							<mainClass>HDFC</mainClass> 
+ 							<mainClass>interfacepackage.HDFC</mainClass> 
  						</manifest> 
  					</archive> 
  				</configuration> 
