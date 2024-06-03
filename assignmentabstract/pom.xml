@@ -3,4 +3,48 @@
   <groupId>com.obscura</groupId>
   <artifactId>assignmentabstract</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-</project>
+  <dependencies>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.1.2</version>
+</dependency>
+
+
+  </dependencies>
+  
+  
+   <name>jenkins</name> 
+   <build> 
+ 		<plugins> 
+ 			<plugin> 
+ 				<groupId>org.apache.maven.plugins</groupId> 
+ 				<artifactId>maven-compiler-plugin</artifactId> 
+ 				<configuration> 
+ 					<source>1.8</source> 
+ 					<target>1.8</target> 
+ 				</configuration> 
+ 			</plugin> 		 
+ <plugin> 
+ 				<groupId>org.apache.maven.plugins</groupId> 
+ 				<artifactId>maven-jar-plugin</artifactId> 
+ 				<configuration> 
+ 					<archive> 
+ 						<manifest> 
+ 							<mainClass>HDFC</mainClass> 
+ 						</manifest> 
+ 					</archive> 
+ 				</configuration> 
+ 			</plugin> 
+ 		</plugins> 
+ 	</build> 
+ </project>
+  
