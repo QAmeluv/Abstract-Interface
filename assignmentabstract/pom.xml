@@ -39,7 +39,7 @@
  				<configuration> 
  					<archive> 
  						<manifest> 
- 							<mainClass>interfacepackage.HDFC</mainClass> 
+ 							<mainClass>collection.IteratorExample</mainClass> 
  						</manifest> 
  					</archive> 
  				</configuration> 
